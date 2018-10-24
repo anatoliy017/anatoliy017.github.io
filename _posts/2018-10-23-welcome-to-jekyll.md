@@ -1,6 +1,6 @@
 ---
-title: Title post
-date: 2018-10-23 21:15:57 Z
+title: Заголовок 2
+date: 2018-10-23 21:15:00 Z
 categories:
 - jekyll
 layout: post
