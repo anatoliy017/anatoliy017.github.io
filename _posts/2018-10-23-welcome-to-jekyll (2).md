@@ -1,11 +1,11 @@
 ---
-title: Мой тайтл 1
-date: 2018-10-23 14:15:57 Z
+title: Заголовок 2
+date: 2018-10-23 14:15:00 Z
 categories:
 - jekyll
-layout: post
 description: Мое метоописание 2
-header: Мой заголовок H1
+header: Мой заголовок 2
+layout: post
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Вы найдете этот пост в своем _postsкаталоге. Перейдите и отредактируйте его и заново создайте сайт, чтобы увидеть ваши изменения. Вы можете перестроить сайт по-разному, но наиболее распространенным способом является запуск jekyll serve, который запускает веб-сервер и автоматически восстанавливает ваш сайт при обновлении файла.
