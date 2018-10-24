@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Мой тайтл 
-description: Мое метоописание 
+title:  Мой тайтл з
+description: Мое метоописание 3
 header: Мой заголовок H1
 date:   2018-10-24 21:15:57 +0700
 category: jekyll 
