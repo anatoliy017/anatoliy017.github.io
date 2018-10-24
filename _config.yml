@@ -9,9 +9,9 @@ collections:
     title: Uploads
     output: true
 email: gfmac.58@gmail.com
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+description: Написать удивительное описание для вашего нового сайта здесь. Вы можете
+  отредактировать эту строку в _config.yml. Он появится в вашем документе мета голове
+  (для результатов поиска Google) и в описании feed.xml сайта.
 baseurl: 
 url: 
 twitter_username: jekyllrb
