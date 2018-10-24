@@ -4,7 +4,7 @@ date: 2018-10-23 14:15:00 Z
 categories:
 - jekyll
 description: Мое метоописание 2
-header: Мой заголовок 2
+header: Описание 2
 layout: post
 ---
 
