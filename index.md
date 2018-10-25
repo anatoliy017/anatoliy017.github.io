@@ -3,6 +3,8 @@ title: Главная
 layout: default
 ---
 
+![images.png](/uploads/images.png)
+
 {% for post in site.categories.jekyll %}
 
 
