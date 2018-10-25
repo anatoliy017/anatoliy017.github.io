@@ -5,7 +5,7 @@ permalink: contactes
 layout: page
 ---
 
-﻿<!DOCTYPE html>
+
 <html>
 <head>
 	<meta charset="utf-8">
@@ -16,16 +16,16 @@ layout: page
 <body>
 
             <label for="name">Имя:</label>
-            <input type="text"  name="name" placeholder="Введите ваше имя" required />
+            <input type="text"  name="name" placeholder="" required />
         </p>
         <p>
             <label for="email">Email:</label>
-            <input type="email" name="email" placeholder="Введите электронный адрес" required />
+            <input type="email" name="email" placeholder="" required />
             <span class="form_hint">"name@something.com"</span>
         </p>
         <p>
             <label for="tel">Телефон:</label>
-            <input type="tel" name="tel" placeholder="Введите номер телефона" required />
+            <input type="tel" name="tel" placeholder="" required />
             <span class="form_hint">"+7-123-4567890"</span>
         </p>
         <p>
