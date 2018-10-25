@@ -14,26 +14,24 @@ layout: page
 	<link rel="stylesheet" media="screen" href="styles.css" >
 </head>
 <body>
-<h1>Демонстрационная форма для статьи <a href=http://biznessystem.ru/2015/05/html-forma-obratnoj-svyazi-dlya-sajta-php/>HTML форма обратной связи на PHP</a></h1>
-<form class="contact_form" action="contact-form.php" method="post">
-	<p>
+
             <label for="name">Имя:</label>
             <input type="text"  name="name" placeholder="Введите ваше имя" required />
         </p>
         <p>
             <label for="email">Email:</label>
             <input type="email" name="email" placeholder="Введите электронный адрес" required />
-            <span class="form_hint">Правильный формат "name@something.com"</span>
+            <span class="form_hint">"name@something.com"</span>
         </p>
         <p>
             <label for="tel">Телефон:</label>
             <input type="tel" name="tel" placeholder="Введите номер телефона" required />
-            <span class="form_hint">Правильный формат "+7-123-4567890"</span>
+            <span class="form_hint">"+7-123-4567890"</span>
         </p>
         <p>
             <label for="website">Сайт:</label>
             <input type="url" name="website" placeholder="Введите адрес вашего сайта" pattern="(http|https)://.+"/>
-            <span class="form_hint">Правильный формат "http://someaddress.com"</span>
+            <span class="form_hint">"http://someaddress.com"</span>
         </p>
         <p>
             <label for="message">Текст сообщения:</label>
