@@ -5,44 +5,44 @@ permalink: contactes
 layout: page
 ---
 
-﻿<?php
-
-/* Задаем переменные */
-$name = htmlspecialchars($_POST["name"]);
-$email = htmlspecialchars($_POST["email"]);
-$tel = htmlspecialchars($_POST["tel"]);
-$website = htmlspecialchars($_POST["website"]);
-$message = htmlspecialchars($_POST["message"]);
-$bezspama = htmlspecialchars($_POST["bezspama"]);
-
-/* Ваш адрес и тема сообщения */
-$address = "mister@mackruis.ru";
-$sub = "Сообщение с сайта ХХХ";
-
-/* Формат письма */
-$mes = "Сообщение с сайта ХХХ.\n
-Имя отправителя: $name 
-Электронный адрес отправителя: $email
-Телефон отправителя: $tel
-Сайт отправителя: $website
-Текст сообщения:
-$message";
-
-
-if (empty($bezspama)) /* Оценка поля bezspama - должно быть пустым*/
-{
-/* Отправляем сообщение, используя mail() функцию */
-$from = "Reply-To: $email \r\n";
-if (mail($address, $sub, $mes, $from)) {
-	header('Refresh: 5; https://anatoliy017.github.io/');
-	echo '<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-    <body>Письмо отправлено, через 5 секунд вы вернетесь на страницу XXX</body>';}
-else {
-	header('Refresh: 5; URL=https://anatoliy017.github.io/');
-	echo '<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-    <body>Письмо не отправлено, через 5 секунд вы вернетесь на страницу YYY</body>';}
-}
-exit; /* Выход без сообщения, если поле bezspama чем-то заполнено */
-?>
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Форма обратной связи на HTML и PHP</title>
+	<meta name="robots" content="noindex, nofollow"/>
+	<link rel="stylesheet" media="screen" href="styles.css" >
+</head>
+<body>
+<h1>Демонстрационная форма для статьи <a href=http://biznessystem.ru/2015/05/html-forma-obratnoj-svyazi-dlya-sajta-php/>HTML форма обратной связи на PHP</a></h1>
+<form class="contact_form" action="contact-form.php" method="post">
+	<p>
+            <label for="name">Имя:</label>
+            <input type="text"  name="name" placeholder="Введите ваше имя" required />
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Введите электронный адрес" required />
+            <span class="form_hint">Правильный формат "name@something.com"</span>
+        </p>
+        <p>
+            <label for="tel">Телефон:</label>
+            <input type="tel" name="tel" placeholder="Введите номер телефона" required />
+            <span class="form_hint">Правильный формат "+7-123-4567890"</span>
+        </p>
+        <p>
+            <label for="website">Сайт:</label>
+            <input type="url" name="website" placeholder="Введите адрес вашего сайта" pattern="(http|https)://.+"/>
+            <span class="form_hint">Правильный формат "http://someaddress.com"</span>
+        </p>
+        <p>
+            <label for="message">Текст сообщения:</label>
+            <textarea name="message" cols="40" rows="6" required ></textarea>
+        </p>
+		<input name="bezspama" type="text" style="display:none" value="" />
+        <p>
+        	<button class="submit" type="submit">Отправить сообщение</button>
+        </p>
+</form>
+</body>
+</html>
