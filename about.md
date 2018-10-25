@@ -4,6 +4,8 @@ permalink: "/about/"
 layout: page
 ---
 
+![image.jpg](/uploads/image.jpg)
+
 ![jekyll-island-state-era-e9cabb.jpg](/uploads/jekyll-island-state-era-e9cabb.jpg)
 
 
