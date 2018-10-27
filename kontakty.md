@@ -5,4 +5,4 @@ permalink: kontakty
 layout: page
 ---
 
-![phone-381285-1.png](/uploads/phone-381285-1.png)
+[![phone-381285-1.png](/uploads/phone-381285-1.png)](http://test.mastervidsite.ru)
