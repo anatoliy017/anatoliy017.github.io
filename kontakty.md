@@ -5,4 +5,4 @@ permalink: kontakty
 layout: page
 ---
 
-1234567
+![phone-381285-1.jpg](/uploads/phone-381285-1.jpg)
